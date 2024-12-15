@@ -1,3 +1,6 @@
+/*google-font-start:.:  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/*google-font-end:.:  */
 *{
     margin: 0px;
     padding: 0px;
@@ -6,10 +9,19 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+*::selection {
+    background-color:rgb(77, 77, 77);;
+
+    color: white;
+}
 :root{
     --bg-color:#000;
     --btn-color:#009DFF;
+    --txt-color:rgb(31, 31, 31);
+    --Azure-font:"Raleway", sans-serif;
+    --Azure-head-font:"Noto Sans", sans-serif;
 }
+
 .hero{
     position: relative;
     height: 100vh;
@@ -43,6 +55,8 @@
 }
 .Nav-links a{
   color: white;
+  font-family: var(--Azure-font);
+  font-weight: 500;
   font-size: 1rem;
  text-decoration: none;
  transition: opacity 0.3s,   text-decoration-thickness 0.5s ease;
@@ -59,9 +73,25 @@
 .Brand-logo{
    color: white;
   padding-right: 12rem;
+  font-family: var(--Azure-head-font);
+  font-weight: 400;
+}
+#menu-Box{
+    background-color: #222;
+    color: white;
+    width: 4.6rem;
+    border: none;
+    height: 1.9rem;
+    padding: 0px 5px;
+    border-radius: 5px;  
+    text-transform: uppercase;
+    display: none;
+    cursor: pointer;
 }
 #menuBar{
-    display: none;
+    font-size: 13px;
+    padding-left: 3px;
+
 }
 /* Navbar-end */
 
@@ -110,14 +140,17 @@
 .carousel-text h1{
     /* font-size: 3rem; */
         font-size: 4rem;
-        font-weight: bold;
+        font-weight: 500;
         text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.7);
+        font-family: var(--Azure-head-font);
+        letter-spacing: 4px;
 }
 
 .carousel-text p{
     font-size: 1.5rem;
     text-shadow: 2px 2px 5px rgb(0, 0, 0,0.7 );
     margin-top: 20px;
+    font-family: var(--Azure-font);
 }
 /*carousel-text-end  */
 
@@ -146,9 +179,68 @@ button.prev:hover,
 button.next:hover {
    background-color: var(--btn-color);
 }
-
 /* Carousel-end */
 
+
+
+
+/* About-section-styling-start:.: */
+#about-section{
+    width: 80%;
+    margin: 9rem auto;
+    display: flex;
+    gap: 2rem;
+
+}
+.responsive-break {
+    display: inline;
+}
+.about-info h3{
+    font-family: var(--Azure-font);
+
+}
+
+.about-info h2{
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 56px;
+    color: var(--txt-color);
+    margin-top: 1.5rem;
+    font-family: var(--Azure-font);
+}
+.about-info p{
+    font-family: var(--Azure-font);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--txt-color);
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.about-img{
+    display: flex;
+    gap: 10px;
+}
+
+.about-img .img1{
+    width: 284px;
+    height: 400px;
+    background: url(/static/img/about-img-1.jpg) no-repeat center/cover;
+}
+
+.about-img .img2{
+    width: 294px;
+    height: 400px;
+    background: url(/static/img/about-img-2.jpg) no-repeat center/cover;
+    margin-top: 3rem;
+}
+
+
+
+
+
+/* About-section-styling-end:.: */
 
 
 
@@ -165,27 +257,129 @@ button.next:hover {
 
 
 /* code-for-Responsiveness-start*/
-@media (max-width:1200px) {
+@media (max-width:1210px) {
+    #about-section{
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+
+    .about-info h3{
+        font-family: var(--Azure-font);
     
+    }
+    
+    .about-info h2{
+        font-size: 46px;
+        font-weight: 400;
+        line-height: 56px;
+        color: var(--txt-color);
+        margin-top: 1.5rem;
+        font-family: var(--Azure-font);
+    }
+    .about-info p{
+        font-family: var(--Azure-font);
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+        font-weight: 400;
+        color: var(--txt-color);
+        font-weight: 400;
+        margin-top: 25px;
+    }
+    .about-img{
+        margin-top: 2rem;
+    }
 }
+
+
+
 @media (max-width:992px) {
-    #menuBar{
+    body{
+        /* background-color: brown; */
+    }
+    #menu-Box{
         display: block;
           position: absolute;
           right: 4rem;
+          width: 4.6rem;
           top: 3rem;
           color: white;
-          font-size: 1.4rem;
           cursor: pointer;
-          /* background-color: red; */
+    }
+
+    button{
+      display: none;
+    }
+    .Brand-logo{
+      color: white;
+     text-align: left;
+    }
+    .nav-container{
+     flex-direction: column-reverse;
+    }
+
+    .Nav-links{
+        position: relative;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 5px;
+       background-color: #4c4c4c;
+        transition: transform 0.5s ease-in-out;
+
+       }
+    
+    .Nav-links li a{
+        display: none;
+        position: relative;
+        top: 2.5rem;
+        width: 100%;
+        padding: 0px 15px;
+        box-sizing: border-box;
+        transform: translateY(10%);
+        transition: transform 0.5s ease-in-out;
+    }
+
+   
+    .Nav-links.active li a{
+        display: flex;
+        transform: translateY(0);
+    }
+
+    .Nav-links.active{
+        height: 13rem;
+    }
+
+    /* about-section-start:.: */
+    .about-info p{
+        font-family: var(--Azure-font);
+        font-size: 1rem;
+        line-height: 1.9rem;
+        font-weight: 400;
+        color: var(--txt-color);
+        font-weight: 400;
+        margin-top: 25px;
+    }
+
+
+    /* about-section-end:.: */
+
+}
+
+@media (max-width: 768px) { 
+    #menu-Box{
+        display: block;
+          position: absolute;
+          right: 4rem;
+          width: 4.6rem;
+          top: 3rem;
+          color: white;
+          cursor: pointer;
     }
     button{
       display: none;
     }
-    .Navbar{
-        /* background-color: var(--bg-color); */
-    }
-
     .Brand-logo{
       color: white;
      text-align: left;
@@ -201,7 +395,6 @@ button.next:hover {
         gap: 12px;
         margin-top: 5px;
        background-color: #4c4c4c;
-        /* width: 100%; */
         transition: transform 0.5s ease-in-out;
        }
     
@@ -210,7 +403,7 @@ button.next:hover {
         position: relative;
         flex-direction: column;
         gap: 10px;
-       /* background-color: #4c4c4c; */
+       background-color: #4c4c4c;
         width: 100%;
         padding: 0px 15px;
         box-sizing: border-box;
@@ -220,18 +413,300 @@ button.next:hover {
 
     .Nav-links.active li a{
         display: flex;
-        /* height: 10rem; */
         transform: translateY(0);
     }
+    .Nav-links.active{
+        height: 13rem;
+    }
+      /* Navbar-end :.:*/
+
+    .carousel {
+        height: 100vh;
+    }
+
+    .carousel-text h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-text p {
+        font-size: 1rem;
+    }
+
+    button.prev,
+    button.next {
+        font-size: 1.5rem;
+        padding: 0.3rem 0.8rem;
+    }
+
+    /* about-section-start:.: */
+    #about-section{
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .responsive-break {
+        display: none;
+    }
+
+
+    .about-info h3{
+        font-family: var(--Azure-font);
+    
+    }
+    
+    .about-info h2{
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 56px;
+        color: var(--txt-color);
+        margin-top: 1.5rem;
+        font-family: var(--Azure-font);
+    }
+    .about-info p{
+        font-family: var(--Azure-font);
+        font-size: 1rem;
+        line-height: 1.9rem;
+        font-weight: 400;
+        color: var(--txt-color);
+        font-weight: 400;
+        margin-top: 25px;
+    }
+    .about-img{
+        margin-top: 2rem;
+    }
+
+
+    /* about-section-end:.: */
+
+
+
+
+
+
+
+
 
 
 }
 
+@media (max-width: 567px) {
+    /* Navbar-start:.: */
+
+    #menu-Box{
+        display: block;
+          position: absolute;
+          right: 4rem;
+          width: 4.6rem;
+          top: 3rem;
+          color: white;
+          cursor: pointer;
+    }
+    button{
+      display: none;
+    }
+    .Brand-logo{
+        color: white;
+       text-align: left;
+       font-size: 14px;
+      }
+    .nav-container{
+     flex-direction: column-reverse;
+    }
+     
+
+    .Nav-links{
+        position: relative;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 5px;
+        width: 100%;
+       background-color: #4c4c4c;
+        transition: transform 0.5s ease-in-out;
+       }
+    
+    .Nav-links li a{
+        display: none;
+        position: relative;
+        flex-direction: column;
+        gap: 10px;
+       background-color: #4c4c4c;
+        width: 100%;
+        padding: 0px 15px;
+        box-sizing: border-box;
+        transform: translateY(10%);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .Nav-links.active li a{
+        display: flex;
+        transform: translateY(0);
+    }
+    .Nav-links.active{
+        height: 13rem;
+    }
+   /* Navbar-end:.: */
+
+   /* Hero-Page-start:.: */
+    .carousel {
+        height: 100vh;
+    }
+
+    .carousel-text h1 {
+        font-size: 1.3rem;
+    }
+
+    .carousel-text p {
+        font-size: 0.9rem;
+    }
+
+    button.prev,
+    button.next {
+        font-size: 1.2rem;
+        padding: 0.2rem 0.6rem;
+    }
+    /*Hero-Page-end:.:  */
+
+    /* about-section-start */
+    #about-section{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .responsive-break {
+        display: none;
+    }
+
+
+    .about-info h3{
+        font-family: var(--Azure-font);
+    
+    }
+    
+    .about-info h2{
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 56px;
+        color: var(--txt-color);
+        margin-top: 1.5rem;
+        font-family: var(--Azure-font);
+    }
+    .about-info p{
+        font-family: var(--Azure-font);
+        font-size: 0.90rem;
+        line-height: 1.9rem;
+        font-weight: 400;
+        color: var(--txt-color);
+        font-weight: 400;
+        margin-top: 25px;
+    }
+    .about-img {
+        display: flex; 
+        justify-content: center;
+    }
+
+.about-img .img1{
+    width: 100%;
+    height: 250px;
+    background: url(/static/img/about-img-1.jpg) no-repeat center/cover;
+}
+
+.about-img .img2{
+    width: 100%;
+    height: 250px;
+    background: url(/static/img/about-img-2.jpg) no-repeat center/cover;
+    margin-top: 3rem;
+}
+
+      /* about-section-end */
+
+
+} 
+@media (max-width: 369px) and (min-width: 314px) {
+    #menu-Box {
+        display: block;
+        position: absolute;
+        right: 3.5rem; /* Adjust as needed */
+        width: 4.6rem;
+        top: 4rem !important;   /* Adjust spacing to look good */
+        color: white;
+        cursor: pointer;
+    }
+}
 
 
 
+ @media (max-width: 360px)  {
+
+      #menu-Box{
+        display: block;
+          position: absolute;
+          right: 4rem;
+          width: 4.6rem;
+          top: 3rem;
+          color: white;
+          cursor: pointer;
+    }
+    button{
+      display: none;
+    }
+    .Brand-logo{
+      color: white;
+     text-align: left;
+     font-size: 12px;
+    }
+    .nav-container{
+     flex-direction: column-reverse;
+    }
+     
+
+    .Nav-links{
+        position: relative;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 5px;
+        width: 100%;
+       background-color: #4c4c4c;
+        transition: transform 0.5s ease-in-out;
+       }
+    
+    .Nav-links li a{
+        display: none;
+        position: relative;
+        flex-direction: column;
+        gap: 10px;
+       background-color: #4c4c4c;
+        width: 100%;
+        padding: 0px 15px;
+        box-sizing: border-box;
+        transform: translateY(10%);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .Nav-links.active li a{
+        display: flex;
+        transform: translateY(0);
+    }
+    .Nav-links.active{
+        height: 13rem;
+    }
+} 
 
 
+@media (max-width: 320px){
+    #menu-Box{
+        display: block;
+          position: absolute;
+          right: 4rem;
+          width: 4.6rem;
+          top: 4rem;
+          color: white;
+          cursor: pointer;
+    }
+}
 
 
 /* code-for-Responsiveness-end*/
