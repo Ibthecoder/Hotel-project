@@ -137,9 +137,13 @@
   color: white;
   z-index: 2;
 }
-.carousel-text h1{
+
+.carousel-text{
+    width: 100%;
+}
+.carousel-text h2{
     /* font-size: 3rem; */
-        font-size: 4rem;
+        font-size: 5rem;
         font-weight: 500;
         text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.7);
         font-family: var(--Azure-head-font);
@@ -325,6 +329,7 @@ button.next:hover {
         flex-direction: column;
         gap: 12px;
         margin-top: 5px;
+        width: auto;
        background-color: #4c4c4c;
         transition: transform 0.5s ease-in-out;
 
@@ -350,6 +355,34 @@ button.next:hover {
     .Nav-links.active{
         height: 13rem;
     }
+
+
+    /*  */
+     .carousel {
+        height: 100vh;
+    }
+
+    .carousel-text{
+        width: 100%;
+    }
+   
+
+    .carousel-text h2 {
+        font-size: 4.7rem;
+        margin-top: 8rem;
+        letter-spacing: 1px;
+    }
+
+    .carousel-text p {
+        font-size: 2rem;
+    }
+
+    button.prev,
+    button.next {
+        font-size: 1.5rem;
+        padding: 0.3rem 0.8rem;
+    }
+    /*  */
 
     /* about-section-start:.: */
     .about-info p{
@@ -423,13 +456,19 @@ button.next:hover {
     .carousel {
         height: 100vh;
     }
+    .carousel-text{
+        width: 100%;
+    }
+   
 
-    .carousel-text h1 {
-        font-size: 2rem;
+    .carousel-text h2 {
+        font-size: 4.2rem;
+        margin-top: 8rem;
+        letter-spacing: 1px;
     }
 
     .carousel-text p {
-        font-size: 1rem;
+        font-size: 1.9rem;
     }
 
     button.prev,
@@ -479,16 +518,6 @@ button.next:hover {
 
 
     /* about-section-end:.: */
-
-
-
-
-
-
-
-
-
-
 }
 
 @media (max-width: 567px) {
@@ -551,14 +580,23 @@ button.next:hover {
    /* Hero-Page-start:.: */
     .carousel {
         height: 100vh;
+        /* width: 100%; */
     }
 
-    .carousel-text h1 {
-        font-size: 1.3rem;
+    .carousel-text{
+        width: 90%;
+    }
+   
+
+    .carousel-text h2 {
+        font-size: 3rem;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        /* font-weight: 500; */
     }
 
     .carousel-text p {
-        font-size: 0.9rem;
+        font-size: 1.5rem;
     }
 
     button.prev,
@@ -646,7 +684,7 @@ button.next:hover {
           position: absolute;
           right: 4rem;
           width: 4.6rem;
-          top: 3rem;
+          top: 3rem !important;
           color: white;
           cursor: pointer;
     }
@@ -705,6 +743,21 @@ button.next:hover {
           top: 4rem;
           color: white;
           cursor: pointer;
+    }
+
+    .carousel-text{
+        width: 90%;
+    }
+   
+
+    .carousel-text h2 {
+        font-size: 2rem;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        /* font-weight: 500; */
+    }
+    .carousel-text p {
+        font-size: 1rem;
     }
 }
 
