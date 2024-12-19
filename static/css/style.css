@@ -5,21 +5,24 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    list-style: none;
+    /* list-style: none; */
     text-decoration: none;
     scroll-behavior: smooth;
 }
 *::selection {
     background-color:rgb(77, 77, 77);;
-
     color: white;
+}
+body{
+    background-color:rgb(233, 236, 239);
 }
 :root{
     --bg-color:#000;
     --btn-color:#009DFF;
     --txt-color:rgb(31, 31, 31);
+    --text-color-B:#1F1F1F;
     --Azure-font:"Raleway", sans-serif;
-    --Azure-head-font:"Noto Sans", sans-serif;
+    --Azure-head-font:"Roboto", serif;
 }
 
 .hero{
@@ -60,6 +63,9 @@
   font-size: 1rem;
  text-decoration: none;
  transition: opacity 0.3s,   text-decoration-thickness 0.5s ease;
+}
+.Nav-links li{
+    list-style: none;
 }
 .Nav-links a:hover{
    cursor: pointer;
@@ -144,7 +150,7 @@
 .carousel-text h2{
     /* font-size: 3rem; */
         font-size: 5rem;
-        font-weight: 500;
+        font-weight: bolder;
         text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.7);
         font-family: var(--Azure-head-font);
         letter-spacing: 4px;
@@ -191,8 +197,9 @@ button.next:hover {
 /* About-section-styling-start:.: */
 #about-section{
     width: 80%;
-    margin: 9rem auto;
+    margin: 18rem auto;
     display: flex;
+    justify-content: center;
     gap: 2rem;
 
 }
@@ -239,13 +246,273 @@ button.next:hover {
     background: url(/static/img/about-img-2.jpg) no-repeat center/cover;
     margin-top: 3rem;
 }
-
-
-
-
-
 /* About-section-styling-end:.: */
 
+/* Azure-offer-start:.: */
+#Azure-offer{
+    width: 80%;
+    margin: 18rem auto;
+}
+.azure-offer-write-text{
+    text-align: center;
+}
+.azure-offer-write-text p{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: var(--Azure-head-font);
+}
+
+.azure-offer-write-text h1{
+    font-size: 3.9rem;
+    letter-spacing: 4px;
+    font-family: var(--Azure-head-font);
+    font-weight: 300;
+}
+/* Parent div for image */
+.azure-offer-img div {
+    overflow: hidden; 
+}
+.azure-offer-img{
+    display: flex;
+    margin: 7rem auto;
+    justify-content: center;
+    gap: 2rem;
+}
+.azure-offer-img .azure-offer-img1{
+    width: 550px;
+    height: 338px;
+    background: url(/static/img/azure-offer.jpg) no-repeat center / cover;
+    transition: transform 0.8s ease-in;
+    cursor: pointer;
+}
+.azure-offer-img .azure-offer-img1:hover{
+    transform: scale(1.1);
+}
+.azure-offer-img1-wrieup{
+    width: 350px;
+    height: 300px;
+    padding-top: 3.5rem;
+    /* background-color: brown; */
+}
+
+.azure-offer-img1-wrieup h3{
+    font-size: 1.800rem;
+    font-weight: 400;
+    font-family: var(--Azure-font);
+    line-height: 2.45rem;
+    color: var(--text-color-B);
+}
+.azure-offer-img1-wrieup li {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: var(--txt-color);
+    font-weight: 400;
+    font-family: var(--Azure-font);
+
+}
+.book_now{
+    display: inline-block;
+    border: 1px solid #009DFF;
+    padding: 10px 25px;
+    color: #009DFF;
+    text-transform: capitalize;
+    text-align: center;
+    width: inherit;
+    margin-top: 2.1rem;
+}
+.book_now:hover{
+    color: white;
+    background-color: #009DFF;
+}
+
+.azure-offer-img .azure-offer-img2{
+    width: 550px;
+    height: 338px;
+    background: url(/static/img/azure-offer-3.jpg) no-repeat center / cover;
+    transition: transform 0.8s ease-in;
+}
+.azure-offer-img .azure-offer-img2:hover{
+    transform: scale(1.1);
+}
+
+
+/* Azure-offer-end:.: */
+
+
+/* Azure-services-start:.: */
+#Azure-services{
+     width: 1320px;
+    margin: 9rem auto;
+    /* margin-left: 0px auto; */
+}
+
+.azure-services-writeup {
+   text-align: center;
+}
+.azure-services-writeup h2{
+    font-size: 2.9rem;
+    font-family: var(--Azure-font);
+    font-weight: 600;
+    color: var(--txt-color);
+}
+.azure-services-writeup span{
+    font-style: italic;
+    font-family: var(--Azure-font);
+    font-weight: 400;
+    color: var(--txt-color);
+}
+
+.azure-services-icon{
+    display: flex;
+    gap: 15px;
+    justify-content: center !important;
+    margin-top: 5rem;
+}
+
+.azure-icon-container{
+    width: 440px;
+    /* width: 330px; */
+    height: 126px;
+    color: wh;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.azure-icon1{
+    width: 5rem;
+    height: 126px;
+    background-color: #009DFF;
+    color: white;
+}
+
+.azure-icon2{
+    width: 5rem;
+    height: 126px;
+    background-color: #4c4c4c;
+    color: white;
+}
+
+.azure-icon3{
+    width: 5rem;
+    height: 126px;
+    background-color: #009DFF;
+    color: white;  
+}
+
+#swim{
+    font-size: 3.4rem;
+    margin: 2.4rem 10px;
+}
+#wifi{
+    font-size: 3.4rem;
+    margin: 2.4rem 15px; 
+}
+#restaurant{
+    font-size: 3.4rem;
+    margin: 2.4rem 10px;
+}
+#carpack{
+    margin: 2.2rem 10px;
+}
+
+.azure-icon-writeup h4{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding-left: 19px;
+    font-weight: 500;
+    font-family: var(--Azure-font);
+    margin-top: 1.25rem;
+}
+
+.azure-icon-writeup p{
+    font-size: 15px;
+    padding-left: 19px;
+    font-weight: 400;
+    line-height: 1.2rem;
+    font-family: var(--Azure-head-font);
+    margin-top: 5px;
+    
+}
+/*  */
+
+/* Azure-wifi-start */
+
+
+
+
+/*  */
+
+
+
+
+
+.azure-wifi{
+    width: 312px;
+    height: 211px;
+}
+.azure-Restaurants{
+    width: 312px;
+    height: 211px;
+}
+.azure-car-pack{
+    width: 312px;
+    height: 211px;
+}
+/* Azure-services-end:.: */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* azure-chooseBetter-start:.: */
+
+
+
+.azure-chooseBetter-write-text{
+    text-align: center;
+}
+
+.azure-choose-better-img{
+    display: flex;
+
+}
+.box1{
+    width: 1280px;
+    height: 550px;
+    background-color: brown;
+}
+
+.box2{
+    width: 1280px;
+    height: 550px;
+    background-color: blue;
+}
+
+
+.box3{
+    width: 1280px;
+    height: 550px;
+    background-color: yellow;
+}
+
+.box4{
+    width: 1280px;
+    height: 550px;
+    background-color: purple;
+}
 
 
 
@@ -262,6 +529,7 @@ button.next:hover {
 
 /* code-for-Responsiveness-start*/
 @media (max-width:1210px) {
+    /* about-section-start:.: */
     #about-section{
         width: 70%;
         flex-direction: column;
@@ -295,6 +563,42 @@ button.next:hover {
     .about-img{
         margin-top: 2rem;
     }
+       /* about-section-end:.: */
+      
+       /* azure-offer-section-start:.: */
+       #Azure-offer{
+        width: 80%;
+        margin: 18rem 0px;
+        margin: auto;
+    }
+
+    .azure-offer-img{
+        flex-direction: column;
+        margin: 7rem 0px;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .azure-offer-img .azure-offer-img1{
+        width: 100%;
+        height: 338px;
+        background: url(/static/img/azure-offer.jpg) no-repeat center / cover;
+        transition: transform 0.8s ease-in;
+        cursor: pointer;
+        margin: auto;
+    }
+
+    .azure-offer-img .azure-offer-img2{
+        width: 100%;
+        height: 338px;
+        background: url(/static/img/azure-offer-3.jpg) no-repeat center / cover;
+        transition: transform 0.8s ease-in;
+        cursor: pointer;
+        margin-top: 9rem;
+        /* margin:  auto; */
+    }
+
+
 }
 
 
@@ -515,9 +819,14 @@ button.next:hover {
     .about-img{
         margin-top: 2rem;
     }
-
-
     /* about-section-end:.: */
+
+ /* azure-offer-section-start:.: */
+    #Azure-offer{
+        width: 90%;
+        margin: 18rem 0px;
+        margin: auto;
+    }
 }
 
 @media (max-width: 567px) {
@@ -658,11 +967,78 @@ button.next:hover {
     background: url(/static/img/about-img-2.jpg) no-repeat center/cover;
     margin-top: 3rem;
 }
-
       /* about-section-end */
+    
+
+     /* azure-offer-section-start:.: */
+     #Azure-offer{
+        width: 90%;
+        margin: 18rem 0px;
+        margin: auto;
+    }
+
+    .azure-offer-write-text p{
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: var(--Azure-head-font);
+    }
+    
+    .azure-offer-write-text h1{
+        font-size: 3.5rem;
+        letter-spacing: 4px;
+        font-family: var(--Azure-head-font);
+        font-weight: 300;
+    }
+
+    .azure-offer-img1-wrieup h3{
+        font-size: 1.500rem;
+        font-weight: 400;
+        font-family: var(--Azure-font);
+        line-height: 2.45rem;
+        color: var(--text-color-B);
+    }
+    .azure-offer-img1-wrieup li {
+        margin-top: 10px;
+        font-size: 1.1rem;
+        color: var(--txt-color);
+        font-weight: 400;
+        font-family: var(--Azure-font);
+    
+    }
+
+    .azure-offer-img{
+        flex-direction: column;
+        margin: 7rem 0px;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .azure-offer-img .azure-offer-img1{
+        width: 100%;
+        height: 250px;
+        background: url(/static/img/azure-offer.jpg) no-repeat center / cover;
+        transition: transform 0.8s ease-in;
+        cursor: pointer;
+        margin: auto;
+    }
+
+    .azure-offer-img .azure-offer-img2{
+        width: 100%;
+        height: 250px;
+        background: url(/static/img/azure-offer-3.jpg) no-repeat center / cover;
+        transition: transform 0.8s ease-in;
+        cursor: pointer;
+        margin-top: 9rem;
+        /* margin:  auto; */
+    }
+
+
+
 
 
 } 
+
+
 @media (max-width: 369px) and (min-width: 314px) {
     #menu-Box {
         display: block;
@@ -740,7 +1116,7 @@ button.next:hover {
           position: absolute;
           right: 4rem;
           width: 4.6rem;
-          top: 4rem;
+          top: 3.5rem !important;
           color: white;
           cursor: pointer;
     }
@@ -751,7 +1127,7 @@ button.next:hover {
    
 
     .carousel-text h2 {
-        font-size: 2rem;
+        font-size: 2rem; 
         font-weight: bolder;
         letter-spacing: 1px;
         /* font-weight: 500; */
