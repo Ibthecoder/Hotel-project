@@ -49,3 +49,71 @@ window.addEventListener("scroll",()=>{
 });
 
 updateSlidePosition();
+
+
+
+   
+
+
+
+// Azure-extral-service-swiper-start:
+var swiper = new Swiper(".mySwiper", {
+
+
+    // slidesPerView: 3,
+    pagination: {
+      el: ".swiper-pagination",
+      type: 'bullets',
+      clickable: true,
+      dynamicBullets:true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    // breakpoints: {
+    //     873: {
+    //       slidesPerView: 1,
+    //       slidesPerGroup: 1,
+    //     },
+    //   },
+  });
+
+
+
+
+
+
+
+
+
+// const swiper = new Swiper('.swiper', {
+
+
+//     // Optional parameters
+//     direction: 'horizontal',
+//     loop: true,
+  
+//     // If we need pagination
+//     pagination: {
+//       el: '.swiper-pagination',
+//       type: 'bullets',
+//       clickable: true
+//     },
+  
+//     // Navigation arrows
+//     navigation: {
+//       nextEl: '.swiper-button-next',
+//       prevEl: '.swiper-button-prev',
+//     },
+  
+//     // And if we need scrollbar
+//     scrollbar: {
+//       el: '.swiper-scrollbar',
+//     },
+//   });
+
+
+
+

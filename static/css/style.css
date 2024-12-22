@@ -290,7 +290,7 @@ button.next:hover {
 }
 .azure-offer-img1-wrieup{
     width: 350px;
-    height: 300px;
+    height: 350px;
     padding-top: 3.5rem;
     /* background-color: brown; */
 }
@@ -319,6 +319,7 @@ button.next:hover {
     text-align: center;
     width: inherit;
     margin-top: 2.1rem;
+    text-decoration: none;
 }
 .book_now:hover{
     color: white;
@@ -437,16 +438,7 @@ button.next:hover {
 
 /* Azure-wifi-start */
 
-
-
-
-/*  */
-
-
-
-
-
-.azure-wifi{
+/* .azure-wifi{
     width: 312px;
     height: 211px;
 }
@@ -457,9 +449,142 @@ button.next:hover {
 .azure-car-pack{
     width: 312px;
     height: 211px;
-}
+} */
 /* Azure-services-end:.: */
 
+
+
+/*  */
+#azure-extral-service-section{
+    width: 86%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+}
+
+#extral-server-box{
+    height: 428px;
+    width: 416px;
+    background-color: var(--btn-color);
+    padding-top: 4rem;
+    /* margin: auto; */
+}
+#extral-server-box h2{
+    font-weight: bolder;
+    font-size: 1.9rem;
+    letter-spacing: 3px;
+    font-family: var(--Azure-head-font);
+    text-transform: uppercase;
+    padding: 1rem;
+    color: #ffff;
+}
+#extral-server-box  span{
+    letter-spacing: 2px;
+    font-family: var(--Azure-font);
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 1rem;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+#extral-server-box p{
+    letter-spacing: 1px;
+    font-family: var(--Azure-font);
+    font-weight: 400;
+    padding-left: 1rem;
+    color: #ffff;
+    padding: 1rem;
+}
+
+#azure-extral-btn{
+    text-transform: uppercase;
+    border: 1px solid #ffff;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    font-weight: 400;
+    font-family: var(--Azure-font);
+}
+#extral-server-box #azure-extral-btn{
+    margin-left: 1rem;
+    
+    
+}
+#azure-extral-btn:hover{
+    background-color: #ffff;
+    color: #000000b5;
+}
+
+/* swiper-start */
+.swiper {
+    width: 856px;
+    height: 455px;
+    /* height: 428px; */
+  }
+  .swiper-slide{
+    width: 100%;
+    height: 100%;
+    display: flex !important; 
+  }
+  .swiper-slide .swiper-img img{
+    width: 428px;
+    height: 428px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+  }
+  .swiper .swiperimgwrieup{
+    width: 428px !important;
+    height: 428px !important;
+    background-color: rgb(245, 246, 247);
+    padding-top: 3rem;
+    
+  }
+
+  .swiperimgwrieup h3{
+    font-weight: 500;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    font-family: var(--Azure-font);
+    text-transform: uppercase;
+    padding: 2rem 2rem;
+ }
+
+
+ .swiperimgwrieup p{
+    letter-spacing: 1px;
+    font-family: var(--Azure-font);
+    font-weight: 400;
+    padding-left: 2rem;
+ }
+ .swiper-button-next{
+    right: 0;
+ }
+ .swiper-button-prev{
+    left: 0;
+ }
+   div[class^="swiper-button"]::after{
+    display: none;
+   }
+    div[class^="swiper-button"]{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    border-radius: 20px;
+   }
+
+   .swiper-pagination-bullet-active{
+    width: 30px !important;
+    border-radius: 4px !important;
+    background-color: var(--btn-color) ;
+    height: 5px !important;
+   }
 
 
 
@@ -479,40 +604,6 @@ button.next:hover {
 
 /* azure-chooseBetter-start:.: */
 
-
-
-.azure-chooseBetter-write-text{
-    text-align: center;
-}
-
-.azure-choose-better-img{
-    display: flex;
-
-}
-.box1{
-    width: 1280px;
-    height: 550px;
-    background-color: brown;
-}
-
-.box2{
-    width: 1280px;
-    height: 550px;
-    background-color: blue;
-}
-
-
-.box3{
-    width: 1280px;
-    height: 550px;
-    background-color: yellow;
-}
-
-.box4{
-    width: 1280px;
-    height: 550px;
-    background-color: purple;
-}
 
 
 
@@ -598,15 +689,52 @@ button.next:hover {
         /* margin:  auto; */
     }
 
+    /*azure-extral-service-section-start:.:  */
+    #azure-extral-service-section{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        gap: 10px;
+    }
+
+    #extral-server-box{
+        height: 428px;
+        width: 100%;
+        background-color: var(--btn-color);
+        padding-top: 4rem;
+        /* margin: auto; */
+    }
+    /* .swiper-slide{
+        width: 100%;
+        height: 100%;
+        display: flex !important; 
+      } */
+
+    .swiper {
+        width: 100% !important;
+        /* width: 856px; */
+        height: 460px;
+        margin-top: 1rem;
+        /* height: 428px; */
+      }
+      .swiper .swiperimgwrieup{
+        width: 100% !important;
+        height: 428px !important;
+        background-color: rgb(245, 246, 247);
+        padding-top: 3rem;
+        
+      }
+
 
 }
 
 
 
 @media (max-width:992px) {
-    body{
-        /* background-color: brown; */
-    }
+    /* body{
+        background-color: brown;
+    } */
     #menu-Box{
         display: block;
           position: absolute;
@@ -699,8 +827,48 @@ button.next:hover {
         margin-top: 25px;
     }
 
-
     /* about-section-end:.: */
+
+        /*azure-extral-service-section-start:.:  */
+        #azure-extral-service-section{
+            width: 90%;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+            gap: 10px;
+        }
+        .swiper {
+            width: 100% !important;
+            /* width: 856px; */
+            height: 90% !important;
+            margin-top: 1rem;
+            /* height: 428px; */
+          }
+        .swiper-slide{
+            width: 100%;
+            height: 100%;
+            display: block !important;
+            /* display: flex !important;  */
+          }
+
+        .swiper .swiperimgwrieup{
+            width: 100% !important;
+            height: 428px !important;
+            background-color: rgb(245, 246, 247);
+            padding-top: 3rem;
+            
+          }
+
+         .swiper-img img{
+            width: 100% !important;
+            height: 696px !important;
+            object-fit: cover;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        
+          }
+    
 
 }
 
@@ -827,6 +995,50 @@ button.next:hover {
         margin: 18rem 0px;
         margin: auto;
     }
+
+
+      /*azure-extral-service-section-start:.:  */
+      #azure-extral-service-section{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        gap: 10px;
+    }
+
+    /* comingback to you */
+    #extral-server-box{
+        height: 400px;
+        width: 516px;
+        /* background-color: red; */
+        background-color: var(--btn-color);
+        padding-top: 4rem;
+        margin: auto;
+    }
+    .swiper {
+        width: 516px !important;
+        height: 90% !important;
+        margin-top: 1rem;
+      }
+
+
+      .swiper .swiperimgwrieup{
+        width: 100% !important;
+        height: 368px !important;
+        background-color: rgb(245, 246, 247);
+        padding-top: 3rem;
+        
+      }
+
+     .swiper-img img{
+        width: 516px !important;
+        height: 468px !important;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    
+      }
 }
 
 @media (max-width: 567px) {
@@ -1031,6 +1243,68 @@ button.next:hover {
         margin-top: 9rem;
         /* margin:  auto; */
     }
+
+
+    /*  */
+
+
+      /*azure-extral-service-section-start:.:  */
+      #azure-extral-service-section{
+        width: 95%;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        gap: 10px;
+    }
+
+    /* comingback to you */
+    #extral-server-box{
+        height: 400px;
+        width: 100%;
+        /* background-color: red; */
+        background-color: var(--btn-color);
+        padding-top: 4rem;
+        margin: auto;
+    }
+    .swiper {
+        width: 100% !important;
+        height: 90% !important;
+        margin-top: 1rem;
+      }
+
+
+      .swiper .swiperimgwrieup{
+        width: 100% !important;
+        height: 368px !important;
+        background-color: rgb(245, 246, 247);
+        padding-top: 3rem;
+        
+      }
+      .swiperimgwrieup h3{
+        font-weight: 500;
+        font-size: 1.7rem;
+        letter-spacing: 2px;
+        font-family: var(--Azure-font);
+        text-transform: uppercase;
+        padding: 2rem 10px;
+     }
+    
+    
+     .swiperimgwrieup p{
+        font-family: var(--Azure-font);
+        font-weight: 400;
+        padding-left: 10px;
+     }
+
+     .swiper-img img{
+        width: 100% !important;
+        height: 351px !important;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    
+      }
 
 
 
