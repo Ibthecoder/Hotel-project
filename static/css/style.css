@@ -1571,17 +1571,21 @@ button.next:hover {
     
       }
 
+      body{
+        background-color: brown;
+      }
+
 
             /* azure-chooseBetter-start:.: */
   #azure-choose-better{
-    width: 90%;
+    width: 100%;
 }
 .azure-choose-better-img{
     flex-direction: column;
     justify-content: center;
 }
 .azure-choose-img1{
-    width: 414px;
+    width: 100%;
     height: 266px;
     background-image: url(/static/img/room9.jpg);
     background-position: center;
@@ -1593,7 +1597,7 @@ button.next:hover {
 }
 
 .azure-choose-img2{
-    width: 414px;
+    width: 100%;
     height: 266px;
     background-image: url(/static/img/apartment-1.jpg);
     background-position: center;
@@ -1604,7 +1608,7 @@ button.next:hover {
 
 
 .azure-choose-img3{
-    width: 414px;
+    width: 100%;
     height: 266px;
     background-image: url(/static/img/room-4.jpg);
     background-position: center;
@@ -1613,7 +1617,7 @@ button.next:hover {
     margin-top: 45px;
 }
 .azure-choose-img4{
-    width: 414px;
+    width: 100%;
     height: 266px;
     background-image: url(/static/img/room-1.jpg);
     background-position: center;
