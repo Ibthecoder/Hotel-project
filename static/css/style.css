@@ -1581,7 +1581,7 @@ button.next:hover {
     justify-content: center;
 }
 .azure-choose-img1{
-    width: 425px;
+    width: 414px;
     height: 266px;
     background-image: url(/static/img/room9.jpg);
     background-position: center;
@@ -1593,7 +1593,7 @@ button.next:hover {
 }
 
 .azure-choose-img2{
-    width: 425px;
+    width: 414px;
     height: 266px;
     background-image: url(/static/img/apartment-1.jpg);
     background-position: center;
@@ -1604,7 +1604,7 @@ button.next:hover {
 
 
 .azure-choose-img3{
-    width: 425px;
+    width: 414px;
     height: 266px;
     background-image: url(/static/img/room-4.jpg);
     background-position: center;
@@ -1613,7 +1613,7 @@ button.next:hover {
     margin-top: 45px;
 }
 .azure-choose-img4{
-    width: 425px;
+    width: 414px;
     height: 266px;
     background-image: url(/static/img/room-1.jpg);
     background-position: center;
