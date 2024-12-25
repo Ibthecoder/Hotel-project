@@ -1135,15 +1135,16 @@ button.next:hover {
     width: 98%;
     margin: auto;
     justify-content: center;
+    gap: 15px;
 }
 
 #room-A{
     height: 100vh;
-    width: 100vh;
-    /* background-color: brown; */
+    width: 700px;
 }
 .roomA-img{
-    width: 695px;
+    /* width: 100vh; */
+    width: 700px;
     height: 400px;
     background-color: orange;
     background-image: url(/static/img/bedroomimg4.jpg);
@@ -1206,19 +1207,19 @@ button.next:hover {
 /*:.: ----------------------------------------:.: */
 #room-B{
     height: 100vh;
-    width: 100vh;
-    background-color: blue;
+    width: 700px;
 }
 
 .roomB-img{
-    width: 695px;
+    width: 700px;
+    /* width: 695px; */
     height: 400px;
-    background-color: orange;
-    background-image: url(/static/img/bedroom7.webp);
+    background-image: url(/static/img/bedroom9.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
 }
+
 
 
 
@@ -1271,6 +1272,51 @@ button.next:hover {
        gap: 10px;
        justify-content: center;
     }
+
+
+    /* ROOM.HTML-STYLING-START:.: */
+    #azure-list-rooms{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
+}
+
+#room-A{
+    height: 100vh;
+    width: 45%;
+}
+.roomA-img{
+    /* width: 100vh; */
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    background-image: url(/static/img/bedroomimg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#room-B{
+    height: 100vh;
+    width: 45%;
+}
+
+.roomB-img{
+    width: 100%;
+    /* width: 700px; */
+    /* width: 695px; */
+    height: 400px;
+    background-image: url(/static/img/bedroom9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+ /* ROOM.HTML-STYLING-END:.: */
+
 }
 
 
@@ -1433,6 +1479,63 @@ button.next:hover {
     border: 0.25rem double var(--btn-color); 
     text-align: center;
 }
+
+
+  /* ROOM.HTML-STYLING-START:.: */
+  #azure-list-rooms{
+    flex-direction: column;
+    /* display: flex; */
+    height: auto;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
+}
+
+#room-A{
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+.roomA-img{
+    /* width: 100vh; */
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    background-image: url(/static/img/bedroomimg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#room-B{
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+
+.roomB-img{
+    width: 100%;
+    /* width: 700px; */
+    /* width: 695px; */
+    height: 400px;
+    background-image: url(/static/img/bedroom9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+ /* ROOM.HTML-STYLING-END:.: */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1683,6 +1786,49 @@ button.next:hover {
     border: 0.25rem double var(--btn-color); 
     text-align: center;
 }
+
+
+  /* ROOM.HTML-STYLING-START:.: */
+  #azure-list-rooms{
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
+}
+
+#room-A{
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+.roomA-img{
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    background-image: url(/static/img/bedroomimg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#room-B{
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+
+.roomB-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+ /* ROOM.HTML-STYLING-END:.: */
 
 
 }
@@ -1973,6 +2119,53 @@ button.next:hover {
     border: 0.25rem double var(--btn-color); 
     text-align: center;
 }
+
+
+ /* <!-- Azure-Hotel-Facilities-start:.: --> */
+
+
+  /* ROOM.HTML-STYLING-START:.: */
+  #azure-list-rooms{
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
+}
+
+#room-A{
+    height: 100vh;
+    width: 95%;
+    margin: auto;
+}
+.roomA-img{
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    background-image: url(/static/img/bedroomimg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#room-B{
+    height: 100vh;
+    width: 95%;
+    margin: auto;
+}
+
+.roomB-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+ /* ROOM.HTML-STYLING-END:.: */
+
 
 
 }
@@ -2336,7 +2529,7 @@ button.next:hover {
         height: 455px;
         margin-bottom: 30rem;
     }
-    
+
     #azure-facilities-Container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -2369,6 +2562,91 @@ button.next:hover {
         border: 0.25rem double var(--btn-color); 
         text-align: center;
     }
+
+
+
+     /* <!-- Azure-Hotel-Facilities-end:.: --> */
+
+
+
+
+      /* ROOM.HTML-STYLING-START:.: */
+  #azure-list-rooms{
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
+}
+
+#room-A{
+    height: 100vh;
+    width: 97%;
+    margin: 5rem auto;
+}
+.roommax{
+    flex-direction: column;
+    gap: 15px;
+}
+
+.roomA-img{
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+    background-image: url(/static/img/bedroomimg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#room-B{
+    height: 100vh;
+    width: 95%;
+    margin: 20rem auto;
+}
+
+.roomB-img{
+    width: 100%;
+    height: 300px;
+    background-image: url(/static/img/bedroom9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.room-price{
+    flex-direction: column;
+}
+
+.room-price > h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color-B);
+    font-family: var(--Azure-font);
+    /* margin-top: 1rem; */
+}
+#roomdetails{
+    line-height: 50px;
+    background: var(--btn-color);
+    color: white;
+    font-weight: 600;
+    border: 1px solid;
+    width: 67%;
+    position: relative;
+    font-size: 16px;
+    font-family: var(--Azure-font);
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 1rem;
+}
+#roomdetails:hover{
+    background-color: white;
+    color: var(--btn-color);
+    border: 1px solid ;
+}
+
+ /* ROOM.HTML-STYLING-END:.: */
 
 
 
