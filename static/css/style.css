@@ -1795,6 +1795,10 @@ button.next:hover {
 
 
 @media (max-width:992px) {
+
+    body{
+        background-color: purple;
+    }
     #menu-Box{
         display: block;
           position: absolute;
@@ -2065,7 +2069,7 @@ button.next:hover {
 #room-B{
     height: 100vh;
     width: 90%;
-    margin: auto;
+    margin: 20rem auto;
 }
 
 .roomB-img{
@@ -2162,6 +2166,9 @@ button.next:hover {
 }
 
 @media (max-width: 768px) { 
+    body{
+        background-color: brown;
+    }
     #menu-Box{
         display: block;
           position: absolute;
