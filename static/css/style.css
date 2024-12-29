@@ -1129,10 +1129,30 @@ button.next:hover {
 
 
 /*:.:--------------------- ROOM-START-------------------:.: */
+.mainroomWriteUp{
+  text-align: center;
+  margin: 5rem 1rem;
+}
+
+.mainroomWriteUp h1{
+    font-size: 3rem;
+    color: #1F1F1F;
+    font-weight: 500;
+    font-style: italic;
+    font-family: var(--Azure-head-font);
+}
+.mainroomWriteUp p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+    font-family: var(--Azure-head-font);
+}
+
+
 #azure-list-rooms{
     display: flex;
     height: auto;
-    width: 98%;
+     width: 98%; 
     margin: auto;
     justify-content: center;
     gap: 15px;
@@ -1143,14 +1163,13 @@ button.next:hover {
     width: 700px;
 }
 .roomA-img{
-    /* width: 100vh; */
     width: 700px;
     height: 400px;
-    background-color: orange;
     background-image: url(/static/img/bedroomimg4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
 .room-wrieup > p{
    font-size: 1rem;
@@ -1212,12 +1231,95 @@ button.next:hover {
 
 .roomB-img{
     width: 700px;
-    /* width: 695px; */
     height: 400px;
+    /* background-image: url(/static/img/bedroom-img1.jpg); */
     background-image: url(/static/img/bedroom9.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* :...............Other-room.........................: */
+.roomC-img{
+    width: 700px;
+    height: 400px;
+    background-image: url(/static/img/bedroom-img1.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomD-img{
+    width: 700px;
+    height: 400px;
+    background-image: url(/static/img/bedroom6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* ------------------- */
+
+.roomE-img{
+    width: 700px;
+    height: 400px;
+    background-image: url(/static/img/bedroom10.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomF-img{
+    width: 700px;
+    height: 400px;
+    background-image: url(/static/img/bedroom12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+
+
+/* ------------------------ */
+
+.roomG-img{
+    width: 700px;
+    height: 400px;
+    background-image: url(/static/img/bedroom13.webp); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomH-img{
+    width: 700px;
+    height: 400px;
+    background-image: url(/static/img/bedroom14.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+
+
+/* ------------------------ */
+.roomI-img{
+    width: 700px;
+    height: 400px;
+    background-image: url(/static/img/bedroom15.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomJ-img{
+    width: 700px;
+    height: 400px;
+    background-image: url(/static/img/bedroom16.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
 }
 
 
@@ -1242,13 +1344,7 @@ button.next:hover {
 
 
 
-
-
-
-
-
-
-
+/*:.:--------------------- ROOM-END-------------------:.: */
 
 
 
@@ -1292,7 +1388,6 @@ button.next:hover {
     /* width: 100vh; */
     width: 100%;
     height: 400px;
-    background-color: orange;
     background-image: url(/static/img/bedroomimg4.jpg);
     background-position: center;
     background-size: cover;
@@ -1306,14 +1401,93 @@ button.next:hover {
 
 .roomB-img{
     width: 100%;
-    /* width: 700px; */
-    /* width: 695px; */
     height: 400px;
     background-image: url(/static/img/bedroom9.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
 }
+
+
+/* :...............Other-room.........................: */
+.roomC-img{
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    background-image: url(/static/img/bedroom-img1.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomD-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* --------------- */
+.roomE-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom10.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomF-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* ----------------------------- */
+.roomG-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom13.webp); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomH-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom14.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+
+/* ----------------------- */
+.roomI-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom15.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomJ-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom16.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+
 
  /* ROOM.HTML-STYLING-END:.: */
 
@@ -1498,7 +1672,6 @@ button.next:hover {
     margin: auto;
 }
 .roomA-img{
-    /* width: 100vh; */
     width: 100%;
     height: 400px;
     background-color: orange;
@@ -1516,13 +1689,90 @@ button.next:hover {
 
 .roomB-img{
     width: 100%;
-    /* width: 700px; */
-    /* width: 695px; */
     height: 400px;
     background-image: url(/static/img/bedroom9.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
+}
+
+/* :...............Other-room.........................: */
+.roomC-img{
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    background-image: url(/static/img/bedroom-img1.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomD-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* --------------- */
+.roomE-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom10.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomF-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* ----------------------------- */
+.roomG-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom13.webp); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomH-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom14.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+
+/* ----------------------- */
+.roomI-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom15.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomJ-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom16.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
 }
 
  /* ROOM.HTML-STYLING-END:.: */
@@ -1788,7 +2038,7 @@ button.next:hover {
 }
 
 
-  /* ROOM.HTML-STYLING-START:.: */
+  /* -------------ROOM.HTML-STYLING-START----------:.: */
   #azure-list-rooms{
     flex-direction: column;
     height: auto;
@@ -1806,7 +2056,6 @@ button.next:hover {
 .roomA-img{
     width: 100%;
     height: 400px;
-    background-color: orange;
     background-image: url(/static/img/bedroomimg4.jpg);
     background-position: center;
     background-size: cover;
@@ -1826,6 +2075,85 @@ button.next:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
+}
+
+/* :...............Other-room.........................: */
+.roomC-img{
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    background-image: url(/static/img/bedroom-img1.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomD-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* --------------- */
+.roomE-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom10.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomF-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* ----------------------------- */
+.roomG-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom13.webp); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomH-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom14.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+
+/* ----------------------- */
+.roomI-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom15.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomJ-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom16.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
 }
 
  /* ROOM.HTML-STYLING-END:.: */
@@ -2142,17 +2470,18 @@ button.next:hover {
 .roomA-img{
     width: 100%;
     height: 400px;
-    background-color: orange;
     background-image: url(/static/img/bedroomimg4.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+
+
 #room-B{
     height: 100vh;
     width: 95%;
-    margin: auto;
+    margin: 20rem auto;
 }
 
 .roomB-img{
@@ -2162,6 +2491,85 @@ button.next:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
+}
+
+/* :...............Other-room.........................: */
+.roomC-img{
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+    background-image: url(/static/img/bedroom-img1.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomD-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* --------------- */
+.roomE-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom10.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomF-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* ----------------------------- */
+.roomG-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom13.webp); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomH-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom14.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+
+/* ----------------------- */
+.roomI-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom15.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomJ-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(/static/img/bedroom16.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
 }
 
  /* ROOM.HTML-STYLING-END:.: */
@@ -2583,7 +2991,7 @@ button.next:hover {
 #room-A{
     height: 100vh;
     width: 97%;
-    margin: 5rem auto;
+    margin: 4rem auto;
 }
 .roommax{
     flex-direction: column;
@@ -2603,7 +3011,7 @@ button.next:hover {
 #room-B{
     height: 100vh;
     width: 95%;
-    margin: 20rem auto;
+    margin: 5rem auto;
 }
 
 .roomB-img{
@@ -2644,6 +3052,86 @@ button.next:hover {
     background-color: white;
     color: var(--btn-color);
     border: 1px solid ;
+}
+
+
+/* :...............Other-room.........................: */
+.roomC-img{
+    width: 100%;
+    height: 300px;
+    background-color: orange;
+    background-image: url(/static/img/bedroom-img1.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomD-img{
+    width: 100%;
+    height: 300px;
+    background-image: url(/static/img/bedroom6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* --------------- */
+.roomE-img{
+    width: 100%;
+    height: 300px;
+    background-image: url(/static/img/bedroom10.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomF-img{
+    width: 100%;
+    height: 300px;
+    background-image: url(/static/img/bedroom12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+/* ----------------------------- */
+.roomG-img{
+    width: 100%;
+    height: 300px;
+    background-image: url(/static/img/bedroom13.webp); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomH-img{
+    width: 100%;
+    height: 300px;
+    background-image: url(/static/img/bedroom14.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
+}
+
+/* ----------------------- */
+.roomI-img{
+    width: 100%;
+    height: 300px;
+    background-image: url(/static/img/bedroom15.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.roomJ-img{
+    width: 100%;
+    height: 300px;
+    background-image: url(/static/img/bedroom16.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 5px;
 }
 
  /* ROOM.HTML-STYLING-END:.: */
