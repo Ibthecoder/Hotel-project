@@ -2066,7 +2066,8 @@ button.next:hover {
 #room-B{
     height: 100vh;
     width: 90%;
-    margin: 23rem auto;
+    margin: 10% auto;
+    background-color: red;
 }
 
 .roomB-img{
