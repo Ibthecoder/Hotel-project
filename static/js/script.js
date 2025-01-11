@@ -39,7 +39,7 @@ prevButton.addEventListener("click", ()=>{
 
 
 
-// Add scroll  for navbar::
+// Add scroll  for navbar-start::
 window.addEventListener("scroll",()=>{
     if(window.scrollY > 100){
         Navbar.classList.add("scrolled");
@@ -50,15 +50,10 @@ window.addEventListener("scroll",()=>{
 
 updateSlidePosition();
 
-
-
-   
-
-
+// Add scroll  for navbar-end::
 
 // Azure-extral-service-swiper-start:
 var swiper = new Swiper(".mySwiper", {
-
 
     // slidesPerView: 3,
     pagination: {
@@ -71,49 +66,28 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-
-    // breakpoints: {
-    //     873: {
-    //       slidesPerView: 1,
-    //       slidesPerGroup: 1,
-    //     },
-    //   },
   });
 
+// Azure-extral-service-swiper-end:
+
+
+// Azure-About-us-carousel-comment-start:.:
+const azureCommentCarousel = document.querySelector(".customer-comment-carousel");
+const azureCommentArrowBtn = document.querySelectorAll("#Customers-comment-wrapper i");
+const firstCardWith = azureCommentCarousel.querySelector(".customer-card").offsetWidth;
+
+// Add event listeners for the arrow buttons to scroll the carousel left and right::
+azureCommentArrowBtn.forEach(btn =>{
+  btn.addEventListener("click", () =>{
+    azureCommentCarousel.scrollLeft += btn.id === "left" ? - firstCardWith : firstCardWith 
+
+  })
+});
+
+    // console.log("Hello");
 
 
 
-
-
-
-
-
-// const swiper = new Swiper('.swiper', {
-
-
-//     // Optional parameters
-//     direction: 'horizontal',
-//     loop: true,
-  
-//     // If we need pagination
-//     pagination: {
-//       el: '.swiper-pagination',
-//       type: 'bullets',
-//       clickable: true
-//     },
-  
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-  
-//     // And if we need scrollbar
-//     scrollbar: {
-//       el: '.swiper-scrollbar',
-//     },
-//   });
-
-
+ 
 
 
