@@ -1497,11 +1497,245 @@ button.next:hover {
     margin: 0 auto;
 
 }
-
-
-
-
 /*:.:--------------------- About-section.html-END-------------------:.: */
+
+
+  /*------------------CONTACT.HTML.STYLING-START--------------------*/
+  #Contact-Container{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    border-radius: 2%;
+    padding: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  #contactbtn{
+    padding: 14px 23px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+    border: 1px solid var(--btn-color);
+    cursor: pointer;
+    color: var(--btn-color);
+    margin-top: 1.5rem;
+    font-family: var(--Azure-font);
+  }
+  #contactbtn:hover{
+    background-color: var(--btn-color);
+    color: white;
+  }
+  .Contact-Us-Form{
+    width: 55%;
+    margin-left: 3rem;
+    margin-top: 5rem;
+  }
+  .Contact-Us-Form > h1{
+    font-weight: 700;
+    color: var(--bg-color);
+    font-family: var(--Azure-font);
+    font-size: 1.60rem;
+  }
+  input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+  }
+  input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+    margin-top: 1.5rem;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 1rem;
+    resize: none;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+    margin-top: 1.5rem;
+  }
+   .contact-Info{
+     width: 30%;
+     margin-right: 1.9rem;
+   }
+   .contact-details p{
+    color: var(--bg-color);
+    font-family: var(--Azure-font);
+   }
+   .contact-details > h2{
+    font-weight: 600;
+    color: var(--bg-color);
+    font-family: var(--Azure-font);
+    font-size: 1.2rem;
+   }
+   .websiteMap{
+    display: flex;
+    justify-content: center;
+   }
+
+
+  /* CONTACT.HTML.STYLING-END */
+
+
+
+
+  /*------------- footer-start-start----------------- */
+  .footer-social-icons{
+    width: auto;
+    height: 7vh;
+    background-color: var(--btn-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 13%;
+  }
+  .footer-social-icons > h6{
+    font-size: 1.3rem;
+    font-family: var(--Azure-font);
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .foot-icon{
+    margin-top: 10px;
+    /* margin-top: 1rem; */
+  }
+  #foot-icon{
+     padding: 12px;
+     font-size: 21px;
+     color: white;
+     cursor: pointer;
+  }
+  #AzureFooter{
+   width: auto;
+   height: 46vh;
+   padding-top: 5rem;
+   background-color: var(--bg-color);
+  }
+  .footer-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5%;
+  }
+  .azure-intro{
+    width: 25%;
+  }
+
+  .azure-intro > h4{
+    color: white;
+    font-family: var(--Azure-font);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 13px;
+  }
+  .azure-intro > p{
+    color: #BABABA;
+    margin-top: 2rem;
+    font-family: var(--Azure-font);
+    font-weight: 300;
+    max-width: 500px;
+  }
+
+  .azure-address{
+    width: 20%;
+  }
+  .azure-address > h3{
+    color: white;
+    font-family: var(--Azure-font);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 13px;
+    text-align: center;
+  }
+  .azure-address > p{
+    color: #BABABA;
+    margin-top: 2rem;
+    font-family: var(--Azure-font);
+    font-weight: 300;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .azure-reservetion{
+    width: 25%;
+  }
+  .azure-reservetion > h3{
+    color: white;
+    font-family: var(--Azure-font);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 13px;
+    text-align: center;
+  }
+  .azure-reservetion > p{
+    color: #BABABA;
+    margin-top: 20rem;
+    font-family: var(--Azure-font);
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  .azure-reservetion a{
+    color: #BABABA;
+  }
+  .azure-navigation{
+    width: 25%;
+  }
+  .azure-navigation > h3{
+    color: white;
+    font-family: var(--Azure-font);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 13px;
+    text-align: center;
+  }
+  .azure-navigation > p{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-family: var(--Azure-font);
+  }
+  .azure-navigation a{
+    color: #BABABA;
+  }
+  .azure-navigation a:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+ 
+    /*------------- footer-start-end----------------- */
 
 
 
@@ -1978,8 +2212,85 @@ button.next:hover {
     background-repeat: no-repeat; 
     border-radius: 5px;
 }
-
  /* ROOM.HTML-STYLING-END:.: */
+
+  /*------------------CONTACT.HTML.STYLING-START--------------------*/
+  #Contact-Container{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    border-radius: 2%;
+    padding: 1rem;
+    padding-bottom: 3rem;
+  }
+  input[type="text"]{
+    width: 150%;
+    padding: 12px 20px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+  }
+  input[type="email"]{
+    width: 150%;
+    padding: 12px 20px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+    margin-top: 1.5rem;
+  }
+
+  textarea{
+    width: 150%;
+    padding: 1rem;
+    resize: none;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+    margin-top: 1.5rem;
+  }
+  #contactbtn{
+    padding: 14px 23px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    border-radius: 4px;
+    width: 150%;
+    border: none;
+    border: 1px solid var(--btn-color);
+    cursor: pointer;
+    color: var(--btn-color);
+    margin-top: 1.5rem;
+    font-family: var(--Azure-font);
+  }
+
+  .contact-Info{
+    width: 30%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }
+  .contact-details p{
+   color: var(--bg-color);
+   font-family: var(--Azure-font);
+  }
+  .contact-details > h2{
+   font-weight: 600;
+   color: var(--bg-color);
+   font-family: var(--Azure-font);
+   font-size: 1.2rem;
+  }
 
 
 }
@@ -2391,7 +2702,6 @@ button.next:hover {
     right: 45%;
   }
 
-
 .customer-card p{
     font-size: 1.4rem;
     line-height: 2rem;
@@ -2400,30 +2710,172 @@ button.next:hover {
     text-align: center;
     max-width: 300px;
 }
-
-
-
-
-
-
   /* ABOUT.HTML.STYLIG-END */
 
+    /*------------------CONTACT.HTML.STYLING-START--------------------*/
+    #Contact-Container{
+        width: 95%;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
+        margin: auto;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5rem;
+        border-radius: 2%;
+        padding: 1rem;
+        padding-bottom: 3rem;
+      }
+      input[type="text"]{
+        width: 150%;
+        padding: 12px 20px;
+        border: none;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-family: var(--Azure-font);
+        outline: none;
+        background-color: rgb(234, 234, 234);
+      }
+      input[type="email"]{
+        width: 150%;
+        padding: 12px 20px;
+        border: none;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-family: var(--Azure-font);
+        outline: none;
+        background-color: rgb(234, 234, 234);
+        margin-top: 1.5rem;
+      }
+    
+      textarea{
+        width: 150%;
+        padding: 1rem;
+        resize: none;
+        border: none;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-family: var(--Azure-font);
+        outline: none;
+        background-color: rgb(234, 234, 234);
+        margin-top: 1.5rem;
+      }
+      #contactbtn{
+        padding: 14px 23px;
+        letter-spacing: 0.08em;
+        text-transform: capitalize;
+        border-radius: 4px;
+        width: 150%;
+        border: none;
+        border: 1px solid var(--btn-color);
+        cursor: pointer;
+        color: var(--btn-color);
+        margin-top: 1.5rem;
+        font-family: var(--Azure-font);
+        display: flex   ;
+      }
+    
+      .contact-Info{
+        width: 80%;
+        margin-left: 3rem;
+        margin-top: 3rem;
+      }
+      .contact-details p{
+       color: var(--bg-color);
+       font-family: var(--Azure-font);
+      }
+      .contact-details > h2{
+       font-weight: 600;
+       color: var(--bg-color);
+       font-family: var(--Azure-font);
+       font-size: 1.2rem;
+      }
 
+      /*---------------------footer-start-start----------------------- */
+      .footer-social-icons{
+        width: auto;
+        height: 13vh;
+        background-color: var(--btn-color);
+        display: block;
+        padding-left: 19rem;
+      }
 
+      .footer-social-icons > h6{
+        font-size: 1.3rem;
+        font-family: var(--Azure-font);
+        font-weight: 600;
+        color: white;
+        align-items: center;
+       padding-top: 1rem;
+      }
+      .foot-icon{
+        margin-left: 5rem;
+      }
+      #foot-icon{
+        margin-top: 20px;
+      }
+      /*footer  */
+      #AzureFooter{
+       width: auto;
+       height: auto;
+       padding-top: 5rem;
+       background-color: var(--bg-color);
+      }
+      .footer-details{
+        flex-direction: column;        
+      }
+      .azure-intro{
+        width: 50%;
+        text-align: center;
+        margin-left: 13rem;
+      }
+      .azure-address{
+        width: 50%;
+        text-align: center;
+        margin-left: 13rem;
+        margin-top: 4rem;
+      }
+      .azure-navigation{
+        width: 50%;
+        text-align: center;
+        margin-left: 13rem;
+        margin-top: 4rem;
+      }
 
+      .azure-reservetion{
+        width: 50%;
+        text-align: center;
+        margin-left: 13rem;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+      }
+      
+}
 
+@media (max-width:819px){
+       /*---------------------footer-start-start----------------------- */
+       .footer-social-icons{
+        width: auto;
+        height: 15vh;
+        background-color: var(--btn-color);
+        display: block;
+        padding-left: 15rem;
+      }
 
-
-
-
-
-
-
-
-
-
-
-
+      .footer-social-icons > h6{
+        font-size: 1.3rem;
+        font-family: var(--Azure-font);
+        font-weight: 600;
+        color: white;
+        align-items: center;
+       padding-top: 1rem;
+      }
+      .foot-icon{
+        margin-left: 5rem;
+      }
+      #foot-icon{
+        margin-top: 30px;
+      }
 
 }
 
@@ -2639,9 +3091,6 @@ button.next:hover {
 
 }
 
-
-
-
     /* Choose a Better Room */
     #azure-query{
         height: 65%;
@@ -2842,10 +3291,6 @@ button.next:hover {
 
 
 
-
-
-
-
  /* ABOUT.HTML.STYLIG-START */
  #azure-Customers-text{
     max-width: 680px;
@@ -2903,10 +3348,145 @@ button.next:hover {
     text-align: center;
     max-width: 670px;
 }
-
-
-
  /* ---------------ABOUT.HTML.STYLIG-END------------------------ */
+
+
+  /*------------------CONTACT.HTML.STYLING-START--------------------*/
+  #Contact-Container{
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    border-radius: 2%;
+    padding: 1rem;
+    padding-bottom: 3rem;
+  }
+  input[type="text"]{
+    width: 160%;
+    padding: 12px 20px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+  }
+  input[type="email"]{
+    width: 160%;
+    padding: 12px 20px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+    margin-top: 1.5rem;
+  }
+
+  textarea{
+    width: 160%;
+    padding: 1rem;
+    resize: none;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+    margin-top: 1.5rem;
+  }
+  #contactbtn{
+    padding: 14px 23px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    border-radius: 4px;
+    width: 160%;
+    border: none;
+    border: 1px solid var(--btn-color);
+    cursor: pointer;
+    color: var(--btn-color);
+    margin-top: 1.5rem;
+    font-family: var(--Azure-font);
+  }
+
+  .contact-Info{
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }
+  .contact-details p{
+   color: var(--bg-color);
+   font-family: var(--Azure-font);
+  }
+  .contact-details > h2{
+   font-weight: 600;
+   color: var(--bg-color);
+   font-family: var(--Azure-font);
+   font-size: 1.2rem;
+  }
+
+    /*---------------------footer-start-start----------------------- */
+    .footer-social-icons{
+        width: auto;
+        height: 12vh;
+        background-color: var(--btn-color);
+        display: block;
+        padding-left: 12rem;
+      }
+
+      .footer-social-icons > h6{
+        font-size: 1.3rem;
+        font-family: var(--Azure-font);
+        font-weight: 600;
+        color: white;
+        align-items: center;
+       padding-top: 1rem;
+      }
+      .foot-icon{
+        margin-left: 5rem;
+      }
+      #foot-icon{
+        margin-top: 20px;
+      }
+      /*footer  */
+      #AzureFooter{
+       width: auto;
+       height: auto;
+       padding-top: 5rem;
+       background-color: var(--bg-color);
+      }
+      .footer-details{
+        flex-direction: column;        
+      }
+      .azure-intro{
+        width: 50%;
+        text-align: center;
+        margin-left: 13rem;
+      }
+      .azure-address{
+        width: 50%;
+        text-align: center;
+        margin-left: 13rem;
+        margin-top: 4rem;
+      }
+      .azure-navigation{
+        width: 50%;
+        text-align: center;
+        margin-left: 13rem;
+        margin-top: 4rem;
+      }
+
+      .azure-reservetion{
+        width: 50%;
+        text-align: center;
+        margin-left: 13rem;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+      }
 
 
 
@@ -3309,9 +3889,6 @@ button.next:hover {
 
      /* <!-- Azure-Hotel-Facilities-end:.: --> */
 
-
-
-
       /* ROOM.HTML-STYLING-START:.: */
   #azure-list-rooms{
     flex-direction: column;
@@ -3471,13 +4048,6 @@ button.next:hover {
  /* ROOM.HTML-STYLING-END:.: */
 
 
- /* body{
-    background-color: red;
- } */
-
-
-
-
  /* ABOUT.HTML.STYLIG-START */
  #azure-Customers-text{
     max-width: 680px;
@@ -3497,10 +4067,6 @@ button.next:hover {
 .about-icon{
     /* margin-top: 1rem; */
 }
-
-
-
-
 
 #Customers-comment-wrapper  i{
     height: 27px;
@@ -3533,17 +4099,156 @@ button.next:hover {
     text-align: center;
     max-width: 420px;
 }
-
-
-
  /* ---------------ABOUT.HTML.STYLIG-END------------------------ */
 
+   /*------------------CONTACT.HTML.STYLING-START--------------------*/
+   #Contact-Container{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    border-radius: 2%;
+    padding: 1rem;
+    padding-bottom: 3rem;
+  }
+  .Contact-Us-Form{
+    margin-left: 1rem;
+    margin-top: 5rem;
+  }
+  input[type="text"]{
+    width: 170%;
+    padding: 12px 20px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+  }
+  input[type="email"]{
+    width: 170%;
+    padding: 12px 20px;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+    margin-top: 1.5rem;
+  }
 
+  textarea{
+    width: 170%;
+    padding: 1rem;
+    resize: none;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: var(--Azure-font);
+    outline: none;
+    background-color: rgb(234, 234, 234);
+    margin-top: 1.5rem;
+  }
+  #contactbtn{
+    padding: 14px 23px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    border-radius: 4px;
+    width: 160%;
+    border: none;
+    border: 1px solid var(--btn-color);
+    cursor: pointer;
+    color: var(--btn-color);
+    margin-top: 1.5rem;
+    font-family: var(--Azure-font);
+  }
 
+  .Contact-Us-Form > h1{
+    width: 160%;
+    font-weight: 700;
+    color: var(--bg-color);
+    font-family: var(--Azure-font);
+    font-size: 2rem;
+  }
 
+  .contact-Info{
+    width: 80%;
+    margin-left: 1.9rem;
+    margin-top: 3rem;
+  }
+  .contact-details p{
+   color: var(--bg-color);
+   font-family: var(--Azure-font);
+  }
+  .contact-details > h2{
+   font-weight: 600;
+   color: var(--bg-color);
+   font-family: var(--Azure-font);
+   font-size: 1.2rem;
+  }
 
+    /*---------------------footer-start-start----------------------- */
+    .footer-social-icons{
+        width: auto;
+        height: 15vh;
+        background-color: var(--btn-color);
+        display: block;
+        padding-left: 3rem;
+      }
 
+      .footer-social-icons > h6{
+        font-size: 15px;
+        font-family: var(--Azure-font);
+        font-weight: 600;
+        color: white;
+        align-items: center;
+       padding-top: 1rem;
+      }
+      .foot-icon{
+        margin-left: 1rem;
+      }
+      #foot-icon{
+        margin-top: 5px;
+      }
+      /*footer  */
+      #AzureFooter{
+       width: auto;
+       height: auto;
+       padding-top: 5rem;
+       background-color: var(--bg-color);
+      }
+      .footer-details{
+        flex-direction: column;        
+      }
+      .azure-intro{
+        width: 90%;
+        text-align: center;
+        margin-left: 1rem;
+      }
+      .azure-address{
+        width: 90%;
+        text-align: center;
+        margin-left: 1rem;
+        margin-top: 4rem;
+      }
+      .azure-navigation{
+        width: 90%;
+        text-align: center;
+        margin-left: 1rem;
+        margin-top: 4rem;
+      }
 
+      .azure-reservetion{
+        width: 90%;
+        text-align: center;
+        margin-left: 1rem;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
+      }
 
 } 
 
