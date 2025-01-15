@@ -340,11 +340,9 @@ button.next:hover {
 /* <!-- Azure-Hotel-Facilities-start:.: --> */
 #azure-facilities{
     width: 100%;
-    background-color: blue;
     /* width: 1312px; */
     height: 455px;
     margin: 0px auto;
-    /* background-color: brown; */
 }
 .azure-facilities-wrieup{
     text-align: center;
