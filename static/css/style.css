@@ -339,9 +339,12 @@ button.next:hover {
 
 /* <!-- Azure-Hotel-Facilities-start:.: --> */
 #azure-facilities{
-    width: 1312px;
+    width: 100%;
+    background-color: blue;
+    /* width: 1312px; */
     height: 455px;
-    margin: auto;
+    margin: 0px auto;
+    /* background-color: brown; */
 }
 .azure-facilities-wrieup{
     text-align: center;
@@ -367,6 +370,7 @@ button.next:hover {
     display: flex;
    margin-top: 5rem;
    gap: 10px;
+   justify-content: center;
 }
 /* wifi-start:.: */
 .wifi-box{
@@ -497,30 +501,6 @@ button.next:hover {
 }
 
 /* <!-- Azure-Hotel-Facilities-end:.: --> */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*  */
@@ -917,10 +897,6 @@ button.next:hover {
     font-size: 23px;
     font-weight: 600;
 }
-
-
-
-
 
 /*  */
 .azure-choose-img4{
@@ -1506,7 +1482,7 @@ button.next:hover {
   /*------------- footer-start-start----------------- */
   .footer-social-icons{
     width: auto;
-    height: 7vh;
+    height: auto;
     background-color: var(--btn-color);
     display: flex;
     justify-content: space-between;
@@ -1532,8 +1508,9 @@ button.next:hover {
   }
   #AzureFooter{
    width: auto;
-   height: 46vh;
+   height: auto;
    padding-top: 5rem;
+   padding-bottom: 3rem;
    background-color: var(--bg-color);
   }
   .footer-details{
@@ -1783,27 +1760,6 @@ button.next:hover {
  /* ROOM.HTML-STYLING-END:.: */
 
 }
-
-
-/* @media (max-width:1349px) {
-    body{
-        background-color: yellow;
-    }
-
-    #azure-extral-service-section{
-        background-color: blue;
-    }
-
-    #extral-server-box{
-        height: 428px;
-        width: 100%;
-        background-color: brown;
-        padding-top: 4rem;
-    }
-    
-} */
-
-
 
 
 @media (max-width:1210px) {
