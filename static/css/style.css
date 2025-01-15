@@ -49,6 +49,7 @@ body{
 .nav-container{
     display: flex;
     justify-content: space-between;
+    padding-top: 1rem;
     /* padding: 0px 5rem; */
 }
 .Nav-links{
@@ -79,7 +80,7 @@ body{
    color: white;
   padding-right: 12rem;
   font-family: var(--Azure-head-font);
-  font-weight: 400;
+  font-weight: 700;
 }
 #menu-Box{
     background-color: #222;
@@ -92,6 +93,21 @@ body{
     text-transform: uppercase;
     display: none;
     cursor: pointer;
+}
+button{
+    background: var(--btn-color);
+    padding: 10px 26px;
+    font-family: var(--Azure-font);
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    color: #fff;
+    transition:  background 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    color: var(--btn-color);
+    background: white;
 }
 #menuBar{
     font-size: 13px;
