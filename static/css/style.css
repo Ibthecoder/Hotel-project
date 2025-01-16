@@ -1545,6 +1545,7 @@ button.next:hover {
     display: flex;
     justify-content: space-between;
     padding: 0px 13%;
+    margin-top: 9rem;
   }
   .footer-social-icons > h6{
     font-size: 1.3rem;
@@ -1570,6 +1571,7 @@ button.next:hover {
    padding-top: 5rem;
    padding-bottom: 3rem;
    background-color: var(--bg-color);
+   /* margin-top: 5rem; */
   }
   .footer-details{
     display: flex;
@@ -1679,9 +1681,9 @@ button.next:hover {
 /* code-for-Responsiveness-start*/
 
 @media (max-width:1440px) {
-    /* body{
+    body{
         background-color: brown;
-    } */
+    }
     #azure-facilities{
         width: 100%;
         height: 455px;
@@ -1739,7 +1741,6 @@ button.next:hover {
 .roomC-img{
     width: 100%;
     height: 400px;
-    background-color: orange;
     background-image: url(/static/img/bedroom-img1.jpg); 
     background-position: center;
     background-size: cover;
