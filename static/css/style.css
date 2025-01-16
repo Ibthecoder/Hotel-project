@@ -1073,8 +1073,9 @@ button.next:hover {
 }
 
 #room-A{
-    height: 100vh;
+    height: 90vh;
     width: 700px;
+    background-color: brown;
 }
 .roomA-img{
     width: 700px;
@@ -1162,6 +1163,7 @@ button.next:hover {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
+   margin-top: 5rem;
 }
 .roomD-img{
     width: 700px;
