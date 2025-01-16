@@ -1061,8 +1061,7 @@ button.next:hover {
     font-family: var(--Azure-head-font);
 }
 
-
-#azure-list-rooms{
+#azure-list-rooms-1{
     display: flex;
     height: auto;
      width: 98%; 
@@ -1072,10 +1071,53 @@ button.next:hover {
    margin-top: 7rem;
 }
 
+#azure-list-rooms-2{
+    display: flex;
+    height: auto;
+     width: 98%; 
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
+   margin-top: 9rem;
+}
+
+
+#azure-list-rooms-3{
+    display: flex;
+    height: auto;
+     width: 98%; 
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
+   margin-top: 10rem;
+}
+
+
+#azure-list-rooms-4{
+    display: flex;
+    height: auto;
+     width: 98%; 
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
+   margin-top: 11rem;
+}
+
+
+
+/* #azure-list-rooms{
+    display: flex;
+    height: auto;
+     width: 98%; 
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
+   margin-top: 7rem;
+} */
+
 #room-A{
     height: 90vh;
     width: 700px;
-    background-color: brown;
 }
 .roomA-img{
     width: 700px;
@@ -1163,7 +1205,6 @@ button.next:hover {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
-   margin-top: 5rem;
 }
 .roomD-img{
     width: 700px;
