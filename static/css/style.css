@@ -1681,9 +1681,6 @@ button.next:hover {
 /* code-for-Responsiveness-start*/
 
 @media (max-width:1440px) {
-    body{
-        background-color: brown;
-    }
     #azure-facilities{
         width: 100%;
         height: 455px;
@@ -2193,7 +2190,7 @@ button.next:hover {
           position: absolute;
           right: 4rem;
           width: 4.6rem;
-          top: 3rem;
+          top: 4.1rem;
           color: white;
           cursor: pointer;
     }
@@ -2786,7 +2783,7 @@ button.next:hover {
           position: absolute;
           right: 4rem;
           width: 4.6rem;
-          top: 3rem;
+          top: 4.1rem;
           color: white;
           cursor: pointer;
     }
@@ -3404,7 +3401,7 @@ button.next:hover {
           position: absolute;
           right: 4rem;
           width: 4.6rem;
-          top: 3rem;
+          top: 4.1rem;
           color: white;
           cursor: pointer;
     }
@@ -3874,7 +3871,6 @@ button.next:hover {
 .roomC-img{
     width: 100%;
     height: 300px;
-    background-color: orange;
     background-image: url(/static/img/bedroom-img1.jpg); 
     background-position: center;
     background-size: cover;
@@ -4170,7 +4166,7 @@ button.next:hover {
         position: absolute;
         right: 3.5rem; /* Adjust as needed */
         width: 4.6rem;
-        top: 4rem !important;   /* Adjust spacing to look good */
+        top: 4.8rem !important;   /* Adjust spacing to look good */
         color: white;
         cursor: pointer;
     }
@@ -4185,7 +4181,7 @@ button.next:hover {
           position: absolute;
           right: 4rem;
           width: 4.6rem;
-          top: 3rem !important;
+          top: 3.8rem !important;
           color: white;
           cursor: pointer;
     }
