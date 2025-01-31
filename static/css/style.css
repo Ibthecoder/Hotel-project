@@ -2183,7 +2183,7 @@ textarea {
     position: absolute;
     right: 4rem;
     width: 4.6rem;
-    top: 4.1rem;
+    top: 3.8rem;
     color: white;
     cursor: pointer;
   }
@@ -2749,6 +2749,14 @@ textarea {
 }
 
 @media (max-width: 819px) {
+  #menu-Box {
+    display: block;
+    position: absolute;
+    right: 3.5rem; /* Adjust as needed */
+    width: 4.6rem; /* Adjust spacing to look good */
+    cursor: pointer;
+    top: 3.7rem !important;
+  }
   /*---------------------footer-start-start----------------------- */
   .footer-social-icons {
     width: auto;
@@ -4204,7 +4212,7 @@ textarea {
     position: absolute;
     right: 4rem;
     width: 4.6rem;
-    top: 3.8rem !important;
+    top: 3.5rem !important;
     color: white;
     cursor: pointer;
   }
